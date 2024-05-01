@@ -228,6 +228,9 @@ body{
 }
 
 @media(max-width:700px){
+    body{
+        background-color: #020202;
+    }
     .content{
         grid-template-rows: 30% 70%;
         width: 90%;
