@@ -207,9 +207,6 @@ body{
     padding-bottom: 10px;
 }
 @media (max-width:1100px){
-    body{
-        background-color: red;
-    }
     .content{
         width: 80%;
     }
@@ -222,15 +219,33 @@ body{
         width: 80%;
     }
 
+    .proyecto{
+        grid-template-rows: 3rem 6rem 2rem;
+    }
+
+    .proyecto a{
+        padding: 10px 0px;
+        font-size: 13px;
+        height: 1rem;
+    }
+
+    .proyectoinvert a{
+        height: 1rem;
+        font-size: 13px;
+        padding: 10px 0px;
+    }
+
+
+    .proyectoinvert{
+        grid-template-rows: 2rem 6rem 2rem;
+    }
+
     #SobreMi{
         width: 80%;
     }
 }
 
 @media(max-width:700px){
-    body{
-        background-color: #020202;
-    }
     .content{
         grid-template-rows: 30% 70%;
         width: 90%;
