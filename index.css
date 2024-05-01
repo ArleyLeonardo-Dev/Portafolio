@@ -234,26 +234,30 @@ body{
     }
 
     .proyectos{
-        width: 90%;
+        width: 90%; 
     }
 
     .proyecto{
-        grid-template-rows: 3rem 4rem 2rem;       
+        grid-template-rows: 3rem 6rem 2rem;       
+    }
+
+    .proyectoinvert h3{
+        margin-bottom: 10px;
     }
 
     .proyectoinvert{
-        grid-template-rows: 3rem 4rem 2rem;
+        grid-template-rows: 3rem 6rem 2rem;
     }
 
     .proyecto a{
         padding: 10px 0px;
-        font-size: 15px;
+        font-size: 12px;
         height: 1rem;
     }
 
     .proyectoinvert a{
         height: 1rem;
-        font-size: 15px;
+        font-size: 12px;
         padding: 10px 0px;
     }
 
