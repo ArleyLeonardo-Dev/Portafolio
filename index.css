@@ -224,7 +224,7 @@ body{
     }
 }
 
-@media(max-width:600px){
+@media(max-width:700px){
     .content{
         grid-template-rows: 30% 70%;
         width: 90%;
